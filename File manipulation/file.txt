@@ -1,0 +1,7 @@
+This file contains data to be read by file.py file.
+Under the File Objects heading we will be learning read, write and append functions.
+1. First Line.
+2. Second Line.
+3. Third Line.
+4. Forth Line.
+5. Fifth Line.

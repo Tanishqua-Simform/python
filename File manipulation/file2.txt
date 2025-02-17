@@ -1,0 +1,5 @@
+WRITE OPERATION
+Testing write operation from file.py
+This text has come from File Read and Write section!
+APPEND OPERATION
+This line is appended after the Write Operation.
