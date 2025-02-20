@@ -2053,19 +2053,90 @@ I have watched videos on youtube for each topic and practiced them as well. The 
 
   - Resources - [Telusko](https://www.youtube.com/watch?v=GqHLztqy0PU) | [Corey Schafer](https://www.youtube.com/watch?v=IEEhzQoKtQU) | [Doc - Multithreading](https://docs.python.org/3/tutorial/stdlib2.html#multi-threading)
   - Code - [multithreading.py](/Advance/multithreading.py)
-  - Output - [Snapshot-1](/images/Threading.png) | [Snapshot-2](/images/Img-Download-Threading.png)
+  - Output - [Threading](/images/Threading.png) | [Img-Download-Threading](/images/Img-Download-Threading.png)
 
 - Request Module -
 
   - Resources - [Corey Schafer](https://www.youtube.com/watch?v=tb8gHvYlCFs) | [NeuralNine](https://www.youtube.com/watch?v=Xi1F2ZMAZ7Q) | [Doc - Requests](https://requests.readthedocs.io/en/latest/) | [xkcd - Comic](https://xkcd.com/537/) | [httpbin - For cutom requests](https://httpbin.org/)
   - Code - [request.py](/Advance/request.py)
-  - Output - [Snapshot-1](/images/Requests-1.png) | [Snapshot-2](/images/Requests-2.png)
+  - Output - [Requests-1](/images/Requests-1.png) | [Requests-2](/images/Requests-2.png)
 
 - Unit testing -
 
-  - Resources - [Corey Schafer](https://www.youtube.com/watch?v=6tNS--WetLI) | [`<Yet to watch>`]() | [Doc - Unittest](https://docs.python.org/3/library/unittest.html#module-unittest)
-  - Code - [unit-testing.py](/Unit%20Testing/unit-testing.py)
-  - Output - [Snapshot](/images/Unit-Testing.png)
+  - Resources - [Corey Schafer](https://www.youtube.com/watch?v=6tNS--WetLI) | [NeuralNine](https://www.youtube.com/watch?v=UL0opWf3DeM) | [Doc - Unittest](https://docs.python.org/3/library/unittest.html#module-unittest)
+  - Code - [unit-testing.py](/Unit%20Testing/unit-testing.py) | [test_employee.py](/Unit%20Testing/test_employee.py)
+  - Output - [Test Calculator](/images/Test%20Calculator.png) | [Test Class Employee](/images/Test%20Class%20Employee.png)
 
 I have added unit testing, although it is still pending. So I will complete it tomorrow.
 See you then! Bye-bye!
+
+##### Dt. 20 Feb, 2025.
+
+We'll be covering some new topics so stay tuned! But before that let's finish our Unit Testing that we started yesterday.
+
+#### Mocking in Unit Testing
+
+- A technique used in unit testing to replace real objects with mock objects.
+- Helps simulate dependencies and isolate the code being tested.
+- Python’s `unittest.mock` module provides tools for creating mock objects and defining their behavior.
+- Useful for testing APIs, databases, and external services without actual interaction.
+- Reduces test dependencies and increases reliability of tests.
+
+Okay so I have modified the above resources. Now we will begin Multiprocessing and Emails in python.
+
+#### Multiprocessing
+
+- Enables parallel execution by creating separate processes, bypassing the Global Interpreter Lock (GIL).
+- Ideal for CPU-bound tasks like data processing, image manipulation, and machine learning computations.
+- Uses the `multiprocessing` module in Python to create and manage processes.
+- Supports process pools for efficient execution of multiple tasks.
+- Interprocess Communication (IPC) allows data sharing using `Queue` and `Pipe`.
+- More efficient than multithreading for CPU-intensive operations.
+- Requires careful management of shared resources to avoid deadlocks and race conditions.
+
+##### Context Manager vs Decorator
+
+- **Context Manager:**
+  - Used to manage resources efficiently using `with` statements.
+  - Ensures proper setup and teardown of resources like files, network connections, and locks.
+  - Helps prevent resource leaks and makes code more readable.
+- **Decorator:**
+  - Used to modify the behavior of functions or classes without modifying their code.
+  - Applied using the `@decorator` syntax.
+  - Commonly used for logging, authentication, and performance measurement.
+- Both enhance code readability and maintainability but serve different purposes.
+
+##### Future Object
+
+- Represents a computation that may not have completed yet.
+- Used in concurrent programming to manage asynchronous operations.
+- The `concurrent.futures` module provides `Future` objects for handling results of background tasks.
+- Helps improve responsiveness in applications by running expensive tasks in parallel.
+- Can be used with thread or process pools to efficiently manage concurrent execution.
+
+#### Emails
+
+- Python provides multiple ways to send emails, primarily using the `smtplib` and `email` modules.
+- Supports plain text, HTML emails, and file attachments.
+- SMTP (Simple Mail Transfer Protocol) is used to send emails through an external server.
+- Authentication is required for most SMTP servers.
+- MIME (Multipurpose Internet Mail Extensions) is used to format email content.
+- Essential for automated reports, notifications, and alerts in applications.
+
+I have watched videos on youtube for each topic and practiced them as well. The links are provided below.
+
+- Multiprocessing -
+
+  - Resources - [Corey Schafer](https://www.youtube.com/watch?v=fKl2JW_qrso) | [Doc - Multiprocessing](https://docs.python.org/3/library/multiprocessing.html#module-multiprocessing)
+  - Code - [multiprocessing\_.py](/Advance/multiprocessing_.py)
+  - Output - [Multiprocessing](/images/Multiprocessing.png) | [Img-Sizing-Multiprocess](/images/Img-Sizing-Multiprocessing.png)
+
+- Emails -
+
+  - Resources - [Telusko](https://www.youtube.com/watch?v=BsVQ_cBmEwg) | [Corey Schafer](https://www.youtube.com/watch?v=JRCJ6RtE3xU) | [Doc - smtplib](https://docs.python.org/3/library/smtplib.html#module-smtplib)
+  - Code - [emails.py](/Advance/emails.py)
+  - Output - [Emails VSCode](/images/Emails-VS-Code.png) | [Emails Debug Server](/images/Emails-Debug-Server.png)
+
+After covering these core concepts, I started DSA by practicing on LeetCode. You can check them out [here](/DSA-Leetcode-75)
+
+We'll solve some more complex DSA problems tomorrow. So stay tuned!
