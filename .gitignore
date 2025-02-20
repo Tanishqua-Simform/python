@@ -3,3 +3,5 @@ py-env
 Pickle Files
 __pycache__
 Threading Img Download
+Multiprocessing Img Size
+.env
