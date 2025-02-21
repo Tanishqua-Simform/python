@@ -2140,3 +2140,178 @@ I have watched videos on youtube for each topic and practiced them as well. The 
 After covering these core concepts, I started DSA by practicing on LeetCode. You can check them out [here](/DSA-Leetcode-75)
 
 We'll solve some more complex DSA problems tomorrow. So stay tuned!
+
+##### Dt. 21 Feb, 2025.
+
+So today, we will be continuing DSA as well as start with Pandas. So let's get started!
+
+## Data Structures
+
+#### Lists
+
+- Dynamic arrays that store ordered elements.
+- Support indexing, slicing, and a variety of built-in functions.
+- Operations: Append, Insert, Delete, Sort, Reverse.
+- Used for general-purpose storage and traversal.
+
+#### Tuples
+
+- Immutable, ordered collections of elements.
+- Faster than lists due to immutability.
+- Useful for fixed collections like coordinate pairs or database records.
+
+#### Sets
+
+- Unordered collections of unique elements.
+- Support mathematical set operations like union, intersection, and difference.
+- Ideal for eliminating duplicates and performing membership tests.
+
+#### Dictionaries
+
+- Key-value pairs providing fast lookups.
+- Allow efficient data retrieval and storage.
+- Commonly used for mappings, caching, and JSON-like data structures.
+
+#### Stack
+
+- Last-In-First-Out (LIFO) data structure.
+- Supports operations: Push (insert), Pop (remove), Peek (view top element).
+- Used in function calls, undo mechanisms, and depth-first search algorithms.
+
+#### Queue
+
+- First-In-First-Out (FIFO) data structure.
+- Supports operations: Enqueue (insert), Dequeue (remove), Peek (view front element).
+- Used in scheduling, breadth-first search, and buffering processes.
+
+#### Deque (Double-Ended Queue)
+
+- Allows insertion and removal from both ends.
+- More flexible than a regular queue.
+- Used in sliding window problems and task scheduling.
+
+#### Priority Queue
+
+- Elements are removed based on priority rather than insertion order.
+- Implemented using a heap data structure.
+- Used in Dijkstra's algorithm and job scheduling.
+
+#### Advanced Data Structures
+
+- **Trie (Prefix Tree)**: Efficient for searching prefixes in a collection of strings.
+- **Heap**: Min-heap and max-heap used in priority queues.
+- **Graph (Adjacency List & Matrix)**: Used in networking, social graphs, and pathfinding.
+- **Disjoint Set (Union-Find)**: Helps in cycle detection and Kruskal’s algorithm.
+- **Segment Tree**: Efficient for range queries like sum, min, and max.
+- **Fenwick Tree (Binary Indexed Tree)**: Used for cumulative frequency calculations.
+- **Red-Black Tree / AVL Tree**: Self-balancing binary search trees for maintaining order.
+
+## Algorithms
+
+#### Sorting Algorithms
+
+- **Bubble Sort**: Repeatedly swaps adjacent elements.
+- **Selection Sort**: Finds the smallest element and places it at the beginning.
+- **Insertion Sort**: Builds a sorted array one element at a time.
+- **Merge Sort**: Uses a divide-and-conquer approach.
+- **Quick Sort**: Selects a pivot and partitions elements around it.
+- **Heap Sort**: Utilizes a heap data structure for sorting.
+- **Radix Sort**: Efficient for sorting large numbers by digit processing.
+- **Counting Sort**: Works efficiently with a known range of integers.
+
+#### Searching Algorithms
+
+- **Linear Search**: Iterates through elements sequentially.
+- **Binary Search**: Efficiently searches sorted lists by halving the search space.
+- **Hashing**: Uses a hash function for near-instant lookups.
+- **Ternary Search**: Variant of binary search used for unimodal functions.
+
+#### Graph Algorithms
+
+- **Breadth-First Search (BFS)**: Explores nodes level by level.
+- **Depth-First Search (DFS)**: Explores as deep as possible before backtracking.
+- **Dijkstra's Algorithm**: Finds the shortest path in a weighted graph.
+- **Floyd-Warshall Algorithm**: Computes shortest paths between all pairs of nodes.
+- **Kruskal’s and Prim’s Algorithms**: Used for finding Minimum Spanning Trees (MST).
+- **Bellman-Ford Algorithm**: Solves single-source shortest path problems with negative weights.
+- **Topological Sorting**: Used in scheduling tasks with dependencies.
+
+#### Dynamic Programming
+
+- Breaks down problems into smaller subproblems and solves each once.
+- **Memoization** (Top-down) and **Tabulation** (Bottom-up) approaches.
+- Common problems: Fibonacci sequence, Knapsack problem, Longest Common Subsequence.
+
+#### String Algorithms
+
+- **KMP Algorithm**: Efficient substring search.
+- **Rabin-Karp Algorithm**: Uses hashing for fast pattern matching.
+- **Z Algorithm**: Used for pattern searching in linear time.
+
+## Pandas
+
+- Pandas is a powerful library for data manipulation and analysis.
+- Provides data structures like `DataFrame` and `Series`.
+- Built on top of NumPy, making it highly efficient for numerical data.
+- Commonly used in data science, machine learning, and data wrangling.
+
+### Core Data Structures
+
+#### Series
+
+- A one-dimensional labeled array.
+- Supports operations like filtering, aggregation, and indexing.
+- Can hold any data type, including integers, floats, and objects.
+
+#### DataFrame
+
+- A two-dimensional table-like data structure.
+- Allows row and column operations similar to SQL tables and Excel spreadsheets.
+- Supports merging, grouping, and reshaping data.
+
+### Important Operations
+
+#### Data Loading
+
+- Supports CSV, Excel, JSON, SQL, and more.
+- `pd.read_csv()`, `pd.read_excel()`, `pd.read_json()`, `pd.read_sql()`.
+
+#### Data Cleaning
+
+- Handling missing values: `dropna()`, `fillna()`.
+- Removing duplicates: `drop_duplicates()`.
+- Data type conversion: `astype()`.
+
+#### Data Manipulation
+
+- Selecting data using `loc[]` and `iloc[]`.
+- Filtering rows based on conditions.
+- Applying functions with `apply()`.
+- Aggregation using `groupby()`.
+
+#### Merging and Joining
+
+- Combining datasets using `merge()`, `concat()`, and `join()`.
+- Useful for handling relational data.
+
+#### Visualization
+
+- Integrates with Matplotlib and Seaborn for data visualization.
+- `plot()` method allows easy creation of charts and graphs.
+
+### Use Cases
+
+- Data analysis and transformation.
+- Financial data processing.
+- Machine learning preprocessing.
+- Time series analysis and forecasting.
+
+Pandas simplifies data handling, making it a crucial tool for anyone working with structured data.
+
+I have solved few DSA questions on Leetcode. You can have a look here -> [LeetCode DSA](/DSA-Leetcode-75)
+
+Later on I started Pandas by [Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) and practiced it alongside. [This directory](/Pandas) is dedicated to that! Well, I did solve Pandas question on Leetcode as well.[Leetcode Pandas](/Pandas/Leetcode_Pandas.py)
+
+Also, I solved some SQL queries on Leetcode. I have commited them in [database repo](https://github.com/Tanishqua-Simform/database)
+
+Alright then! Meet you tomorrow.(Literally!)

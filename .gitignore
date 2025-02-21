@@ -5,3 +5,5 @@ __pycache__
 Threading Img Download
 Multiprocessing Img Size
 .env
+.ipynb_checkpoints
+data
