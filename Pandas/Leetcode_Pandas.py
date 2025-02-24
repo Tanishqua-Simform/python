@@ -1,3 +1,4 @@
+# Dt. 21st Feb, 2025
 # 2877. Create a DataFrame from List
 
 import pandas as pd
@@ -25,3 +26,9 @@ def getDataframeSize(players: pd.DataFrame) -> list:
 
 def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
     return employees.head(3)
+
+# Dt. 24th Feb, 2025
+# 2880. Select Data
+
+def selectData(students: pd.DataFrame) -> pd.DataFrame:
+    return students.loc[students['student_id'] == 101, ['name', 'age']]
