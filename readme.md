@@ -2315,3 +2315,13 @@ Later on I started Pandas by [Corey Schafer](https://youtube.com/playlist?list=P
 Also, I solved some SQL queries on Leetcode. I have commited them in [database repo](https://github.com/Tanishqua-Simform/database)
 
 Alright then! Meet you tomorrow.(Literally!)
+
+##### Dt. 24 Feb, 2025.
+
+Okay, so today I solved the problems given in LMS assignment. Although they need a little refinning so once that is done I will submit them.
+
+Later I watched a video in pandas by [Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) and practiced it as well...
+
+Then I solved a few DSA questions. [LeetCode DSA](/DSA-Leetcode-75)
+
+That is it for today! I will meet you tomorrow!
