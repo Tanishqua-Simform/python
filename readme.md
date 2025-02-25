@@ -2325,3 +2325,16 @@ Later I watched a video in pandas by [Corey Schafer](https://youtube.com/playlis
 Then I solved a few DSA questions. [LeetCode DSA](/DSA-Leetcode-75)
 
 That is it for today! I will meet you tomorrow!
+
+##### Dt. 25 Feb, 2025.
+
+Hello there! I have my 1st interview scheduled tomorrow! So today I will be revisiting all my repos.
+
+Okay so, I have covered -
+
+- [Git](https://github.com/Tanishqua-Simform/hello-from-git),
+- [HTML/CSS/Bootstrap](https://github.com/Tanishqua-Simform/html-css-bootstrap),
+- [Javascript](https://github.com/Tanishqua-Simform/javascript) and
+- [jQuery](https://github.com/Tanishqua-Simform/jQuery).
+
+Wish me luck for tomorrow! (Also, I won't be considering today's work in Python module.)
