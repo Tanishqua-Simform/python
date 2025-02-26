@@ -2338,3 +2338,23 @@ Okay so, I have covered -
 - [jQuery](https://github.com/Tanishqua-Simform/jQuery).
 
 Wish me luck for tomorrow! (Also, I won't be considering today's work in Python module.)
+
+##### Dt. 26 Feb, 2025.
+
+Alright! I have my first evaluation today. So I will be covering rest of the repos -
+
+- [Database](https://github.com/Tanishqua-Simform/database)
+- [Python](https://github.com/Tanishqua-Simform/python)
+
+I have my interview now, Wish me luck!
+
+Whoo Hoo, my evaluation is done and I must admit it was really fun thinking about what concept can be used in which scenario. Overall, it was a good experience! Let's see what the feedback has to say!
+
+Later on, I continued Pandas! I know it has been ages since we were studying this, but let's get back in python mode now!
+
+I covered below topics in Pandas -
+
+- Index - [Video](https://www.youtube.com/watch?v=W9XjRYFkkyw&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&index=3&pp=iAQB) | [Code](Pandas/Stackoverflow_Survey.ipynb)
+- Filter - [Video](https://www.youtube.com/watch?v=Lw2rlcxScZY&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&index=4&pp=iAQB) | [Code](Pandas/Stackoverflow_Survey.ipynb)
+
+That's it for today! Hopefully I will complete Pandas tomorrow!
