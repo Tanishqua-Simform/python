@@ -2358,3 +2358,26 @@ I covered below topics in Pandas -
 - Filter - [Video](https://www.youtube.com/watch?v=Lw2rlcxScZY&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&index=4&pp=iAQB) | [Code](Pandas/Stackoverflow_Survey.ipynb)
 
 That's it for today! Hopefully I will complete Pandas tomorrow!
+
+##### Dt. 27 Feb, 2025.
+
+Hello there! Today we shall finish our Pandas for once and for all!
+
+Alright, I have watched video series by Corey and practiced it alongside. Topics that I have covered are -
+
+- Loading Data
+- Viewing Data
+- DataFrames and Series
+- Indexing
+- Filtering Data
+- Update Rows/Columns
+- Add Rows/Columns
+- Sort Data
+- Grouping and Aggregating
+- Cleaning Data
+
+The code snippets for each topic can be found in [Practice](Pandas/Practice.ipynb) and [Stackoverflow_Survey](Pandas/Stackoverflow_Survey.ipynb) notebooks.
+
+Later I solved, few Pandas queries on Leetcode. [Leetcode_Pandas](Pandas/Leetcode_Pandas.py)
+
+That's it for today! See you tomorrow!
