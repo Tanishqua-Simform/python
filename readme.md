@@ -2381,3 +2381,153 @@ The code snippets for each topic can be found in [Practice](Pandas/Practice.ipyn
 Later I solved, few Pandas queries on Leetcode. [Leetcode_Pandas](Pandas/Leetcode_Pandas.py)
 
 That's it for today! See you tomorrow!
+
+##### Dt. 28 Feb, 2025.
+
+Today we will cover closure, SOLID principle and Design Patterns in python.
+
+## Closure
+
+- A closure is a function object that has access to variables from its containing lexical scope even after the scope has finished execution.
+- Used to maintain state across function calls without using global variables.
+- Functions inside closures remember the environment in which they were created.
+
+### Key Characteristics
+
+- **Encapsulation**: Keeps data private within a function.
+- **Function Factory**: Can generate multiple functions with different behaviors.
+- **State Retention**: Retains values even after the outer function has executed.
+
+### Use Cases
+
+- Implementing decorators.
+- Data hiding and encapsulation.
+- Reducing global scope pollution.
+
+## Design Patterns
+
+- Design patterns are best practices for solving recurring software design problems.
+- They improve code maintainability, scalability, and readability.
+- Categorized into three main types: **Creational, Structural, and Behavioral.**
+
+### Types of Design Patterns
+
+1. **Creational Patterns** (Manage object creation)
+
+   - Singleton
+   - Factory Method
+   - Abstract Factory
+   - Builder
+   - Prototype
+
+2. **Structural Patterns** (Define object relationships)
+
+   - Adapter
+   - Bridge
+   - Composite
+   - Decorator
+   - Facade
+   - Flyweight
+   - Proxy
+
+3. **Behavioral Patterns** (Define communication between objects)
+   - Chain of Responsibility
+   - Command
+   - Interpreter
+   - Iterator
+   - Mediator
+   - Memento
+   - Observer
+   - State
+   - Strategy
+   - Template Method
+   - Visitor
+
+### Use Cases
+
+- Managing dependencies and object creation.
+- Improving code reusability.
+- Ensuring modular and loosely coupled design.
+
+## SOLID Principles
+
+- SOLID is a set of five principles for object-oriented programming to make software more maintainable and scalable.
+- Helps avoid code smells, tight coupling, and makes refactoring easier.
+
+### Principles
+
+1. **Single Responsibility Principle (SRP)**
+
+   - A class should have only one reason to change.
+   - Each class should handle only one functionality.
+
+2. **Open/Closed Principle (OCP)**
+
+   - Software entities should be open for extension but closed for modification.
+   - Encourages the use of interfaces and abstract classes.
+
+3. **Liskov Substitution Principle (LSP)**
+
+   - Subtypes must be substitutable for their base types without breaking functionality.
+   - Ensures correct behavior when using inheritance.
+
+4. **Interface Segregation Principle (ISP)**
+
+   - Clients should not be forced to depend on interfaces they do not use.
+   - Encourages creating multiple small, specific interfaces instead of one large interface.
+
+5. **Dependency Inversion Principle (DIP)**
+   - High-level modules should not depend on low-level modules but on abstractions.
+   - Encourages dependency injection and loose coupling.
+
+### Use Cases
+
+- Designing flexible and scalable software.
+- Reducing dependencies and improving testability.
+- Enhancing maintainability and readability of code.
+
+### Summary in Laymen terms -
+
+1. Single Responsibility
+
+- Make things (classes, functions, etc.) responsible for fulfilling one type of role.
+- Example - Refactor code responsibilities into separate classes.
+
+2. Open/Closed
+
+- Be able to add new functionality to existing code easily without modifying existing code.
+- Example - Use abstract classes. These can define what subclasses will require and strengthen Principle 1. by separating code duties.
+
+3. Liskov Substitution
+
+- When a class inherits from another class, the program shouldn't break and you shouldn't need to hack anything to use the subclass.
+- Example - Define constructor arguments to keep inheritance flexible.
+
+4. Interface Segregation
+
+- Make interfaces (parent abstract classes) more specific, rather than generic.
+- Example - Create more interfaces (classes) if needed and/or provide objects to constructors.
+
+5. Dependency Inversion
+
+- Make classes depend on abstract classes rather than non-abstract classes.
+- Example - Make classes inherit from abstract classes.
+
+I have gone through following resources -
+
+- Closure - [gfg](https://www.geeksforgeeks.org/python-closures/)
+- Design Patterns - [Video](https://www.youtube.com/watch?v=tAuRQs_d9F8) | [Blog](https://refactoring.guru/design-patterns/python)
+- SOLID - [Blog](https://medium.com/@m.nusret.ozates/solid-principles-with-python-245e45f9b1f8) | [Video](https://www.youtube.com/watch?v=pTB30aXS77U)
+
+## LMS Python Task
+
+Now that we have gained in-depth knowledge of Python, let's put our skills to test. Wish me luck!
+
+Alright, I have successfully completed Python Task. Here is the link to my repo -> [Python-Coding-Task](https://github.com/Tanishqua-Simform/Python-Coding-Task)
+
+Later I gave a quiz and got a full score.
+
+Okay then, that's it for this repo. Although we covered a lot in Python but still there an ocean of it, left still to cover.
+So, I will try to keep this repo alive and add new concepts now and then.
+
+###### With this we come to an end for our Python Course (Learning duration - 12 days + 2 day -> Interview prep).
